@@ -11,7 +11,7 @@ class Team extends Component {
   }
 
   clickEvent() {
-    if (this.state.index < 6) {
+    if (this.state.index < memberInfo.length) {
       this.setState((previous) => {
         return { index: previous.index + 1 };
       });
