@@ -55,6 +55,4 @@ const memberInfo = [
   },
 ];
 
-const newArray = [];
-
 export default memberInfo;

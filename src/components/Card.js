@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Card extends Component {
   render() {
     return (
-      <div className="card w-sm-100 col-md-6 col-lg-4 bg-dark text-white">
+      <div className="card w-sm-100 col-md-6 col-lg-3 bg-dark text-white">
         <img src={this.props.image} className="card-img-top h-100" alt="" />
         <div className="card-body">
           <h5 className="card-title text-center fs-2">{this.props.name}</h5>
