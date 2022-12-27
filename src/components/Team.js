@@ -5,19 +5,19 @@ import memberInfo from "./info";
 class Team extends Component {
   constructor() {
     super();
-    this.state = { info: memberInfo, newArray: [], index: 0 };
+    this.state = { info: memberInfo, newArray: [], counter: 0 };
 
     this.clickEvent = this.clickEvent.bind(this);
   }
 
   clickEvent() {
-    if (this.state.index < memberInfo.length) {
+    if (this.state.counter < memberInfo.length) {
       this.setState((previous) => {
-        return { index: previous.index + 1 };
+        return { counter: previous.counter + 1 };
       });
     }
 
-    this.state.newArray.push(memberInfo[this.state.index]);
+    this.state.newArray.push(memberInfo[this.state.counter]);
   }
 
   mapping(x) {
