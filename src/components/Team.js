@@ -12,12 +12,12 @@ class Team extends Component {
 
   clickEvent() {
     if (this.state.counter < memberInfo.length) {
+      this.state.newArray.push(memberInfo[this.state.counter]);
+
       this.setState((previous) => {
         return { counter: previous.counter + 1 };
       });
     }
-
-    this.state.newArray.push(memberInfo[this.state.counter]);
   }
 
   mapping(x) {

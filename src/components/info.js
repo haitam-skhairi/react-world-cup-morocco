@@ -4,7 +4,7 @@ const memberInfo = [
     image: "./images/morocain-players/bono.jpg",
     name: "Yassine Bounou",
     position: "Goalkeeper",
-    born: "September 17, 1993 (age 29 years), Paris, France",
+    born: "April 5, 1991 (age 31 years), Montreal, Canada",
     height: "1.95 m",
     nationality: "Canadian, Moroccan",
   },
